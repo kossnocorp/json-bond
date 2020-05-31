@@ -1,0 +1,28 @@
+{
+  "name": "json-bond",
+  "version": "0.1.0",
+  "description": "Type-safe JSON strings",
+  "keywords": [
+    "bond",
+    "TypeScript",
+    "JSON"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/kossnocorp/json-bond",
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^13.13.4",
+    "babel-preset-power-assert": "^3.0.0",
+    "jest": "^25.5.2",
+    "power-assert": "^1.6.1",
+    "prettier": "^2.0.4",
+    "ts-expect": "^1.1.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {}
+}
