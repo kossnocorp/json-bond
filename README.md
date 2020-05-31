@@ -15,13 +15,13 @@ yarn add json-bond
 ## Usage
 
 ```ts
-import { JsonBond, parse, stringify } from 'json-bond'
+import { JSONBond, parse, stringify } from 'json-bond'
 
 type Abc = { [char: string]: number }
 const abc: Abc = { a: 1, b: 2 }
 
 const json = stringify(abc)
-//=> JsonBond<Abc>
+//=> JSONBond<Abc>
 
 const result = parse(json)
 //=> Abc
