@@ -10,7 +10,7 @@ describe('JSON bond', () => {
     it('stringifies an object to JSON', () => {
       const json = stringify(abc)
       expectType<JSONBond<Abc>>(json)
-      assert.deepEqual(json, { json: '{"a":1,"b":2}' })
+      assert.deepEqual(json, '{"a":1,"b":2}')
     })
   })
 
